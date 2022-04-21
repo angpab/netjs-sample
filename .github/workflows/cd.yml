@@ -25,6 +25,6 @@ jobs:
 
       - name: Build application
         run: npm run build
-        
+
       - name: Restart server application
-        run: pm2 restart MyAppName
+        run: pm2 restart MyApp
