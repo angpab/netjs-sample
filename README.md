@@ -21,7 +21,6 @@
 `cd .github/workflows`\
 `vi ci.yml`
 
-{% code title="ci.yml" %}
 ```yaml
 name: Continuous Integration
 
@@ -51,7 +50,6 @@ jobs:
       - name: Build application
         run: npm run build
 ```
-{% endcode %}
 
 #### Create feature-test branch
 
@@ -105,9 +103,9 @@ Check if Continuos Integration works like in this example:\
 
 #### Create a DO Droplet
 
-{% embed url="https://cloud.digitalocean.com/droplets/new?distro=ubuntu-20-04-x64" %}
 This is a direct link for a droplet creation.
-{% endembed %}
+https://cloud.digitalocean.com/droplets/new?distro=ubuntu-20-04-x64
+
 
 #### Create self-hosted runner
 
@@ -161,7 +159,6 @@ This is a direct link for a droplet creation.
 `cd .github/workflows`\
 `vi cd.yml`
 
-{% code title="cd.yml" %}
 ```yaml
 name: Continuous Deployment
 
@@ -195,7 +192,6 @@ jobs:
       - name: Restart server application
         run: pm2 restart MyApp
 ```
-{% endcode %}
 
 #### Visit  Server IP Address and Port though a browser
 
