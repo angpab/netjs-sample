@@ -195,7 +195,7 @@ jobs:
 
 #### Visit  Server IP Address and Port though a browser
 
-![http://ip\_address:3000](<.gitbook/assets/Screen Shot 2022-04-21 at 21.18.51.png>)
+![http://ip\_address:3000](<.gitbook/assets/helloworld.png>)
 
 #### Short shell log
 
