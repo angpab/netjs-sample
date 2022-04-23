@@ -209,7 +209,6 @@ root@simple-netjs:~# passwd ghact
 root@simple-netjs:~# su - ghact
 $ mkdir actions-runner && cd actions-runner
 $ curl -o actions-runner-linux-x64-2.290.1.tar.gz -L https://github.com/actions/runner/releases/download/v2.290.1/actions-runner-linux-x64-2.290.1.tar.gz
-$ echo "2b97bd3f4639a5df6223d7ce728a611a4cbddea9622c1837967c83c86ebb2baa  
 $ tar xzf ./actions-runner-linux-x64-2.290.1.tar.gz
 $ ./config.sh --url https://github.com/angpab/netjs-sample --token MYTOKENGOESHEREBLABLABLABLABL
 $ sudo ./svc.sh install
