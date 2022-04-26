@@ -1,6 +1,6 @@
 # Instructions
 
-### GitHub Actions and Digital Ocean simple CI/CD
+### GitHub Actions and Digital Ocean simple CI/CD for NestJS
 
 #### <mark style="background-color:blue;">Continuous Integration</mark> <a href="#heading-continuous-deployment-to-digitalocean" id="heading-continuous-deployment-to-digitalocean"></a>
 
